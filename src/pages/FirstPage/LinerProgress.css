@@ -1,0 +1,19 @@
+.dan{
+    display: flex;
+}
+
+.dan1{
+    width: 500px;
+    height: 300px;
+}
+
+@media screen  and (max-width:500px) {
+    .dan{
+        display:inline-block;
+    }
+    .dan1{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
